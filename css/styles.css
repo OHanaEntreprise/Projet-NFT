@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#countdown {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#countdown-labels {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#countdown-labels div {
+    margin: 0 10px;
+}
+
+#countdown-labels span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#countdown-labels span:first-child {
+    color: #ff0000; /* Days color */
+}
+
+#countdown-labels span:nth-child(2) {
+    color: #00ff00; /* Hours color */
+}
+
+#countdown-labels span:nth-child(3) {
+    color: #0000ff; /* Minutes color */
+}
+
+#countdown-labels span:nth-child(4) {
+    color: #ff00ff; /* Seconds color */
+}
