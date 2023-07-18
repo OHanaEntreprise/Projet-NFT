@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Parangon';
+    src: local('Parangon 230 C'), local('Parangon-230-C'),
+        url('Parangon230C.woff2') format('woff2'),
+        url('Parangon230C.woff') format('woff'),
+        url('Parangon230C.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
