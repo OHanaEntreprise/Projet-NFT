@@ -241,12 +241,24 @@ nav {
 	background-size:cover;
 }
 
-/*Qui sommes nous*/
-.who-are-we { 
+.about-us{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	
+}
+
+.about-us .info{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+/*Qui sommes nous*/
+.about-us .lbl { 
+
 	color:rgba(112.000000923872, 112.000000923872, 112.000000923872, 1);
 	width:100%;
 	height:54px;
@@ -256,6 +268,8 @@ nav {
 	font-size:35px;
 	letter-spacing:0;
 	margin-top: -340px;
+	display: flex;
+	justify-content: center;
 	
 }
 
@@ -265,42 +279,69 @@ nav {
 	height:53px;
 	position: relative;
 	top: 50px;
-	left: 220px;
+	left: 50px;
 	font-family:Perpetua Titling MT;
 	text-align:left;
 	font-size:35px;
 	
 }
 
-.coming-soon .title{ 
-	color:rgba(112.000000923872, 112.000000923872, 112.000000923872, 1);
-	width:390px;
-	height:53px;
-	position:absolute;
-	left:1318px;
-	top:2272px;
-	font-family:Perpetua Titling MT;
-	text-align:left;
-	font-size:45px;
-	letter-spacing:0;
-}
-
 .our-vision-bg { 
 	background-image:linear-gradient(0deg, rgba(228.0000016093254, 203.00000309944153, 163.00000548362732, 1) 0%,rgba(149.00000631809235, 128.0000075697899, 98.00000175833702, 1) 46.14582061767578%,rgba(38.0000015348196, 23.000000528991222, 24.000000469386578, 1) 100%) ;
 	opacity:0.9200000166893005;
 	width:780px;
-	height:550px;
+	height:628px;
 	position : relative;
 	top: 70px;
-	left: 220px;
+	left : 50px;
 	border-radius: 29px;
 }
 
-.e7_2181 { 
-	box-shadow:0px 3px 6px rgba(0, 0, 0, 0.16099999845027924);
-	width:489px;
-	height:54px;
-	position:absolute;
-	left:628px;
-	top:1382px;
+.coming-soon{
+	display: flex;
+	flex-direction: column;
 }
+
+.coming-soon .title{ 
+	color:rgba(112.000000923872, 112.000000923872, 112.000000923872, 1);
+	width:390px;
+	height:53px;
+	position:relative;
+	top : 245px;
+	left: 150px;
+	font-family:Perpetua Titling MT;
+	text-align:left;
+	font-size:35px;
+	letter-spacing:0;
+}
+
+.coming-soon .bg { 
+	background-image:linear-gradient(0deg, rgba(202.00000315904617, 181.0000044107437, 145.00000655651093, 1) 0%,rgba(67.00000360608101, 47.0000009983778, 38.0000015348196, 1) 100%) ;
+	opacity:0.9200000166893005;
+	width:270px;
+	height:400px;
+	position: relative;
+	top: 180px;
+	left: 165px;
+	border-radius: 29px;
+}
+
+.dots { 
+	width:200px;
+	height:16px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top:220px;
+	left: 258px;
+	
+}
+
+.dot1, .dot2, .dot3, .dot4 { 
+	border-radius:500px;
+	background-color:rgba(128.0000075697899, 134.00000721216202, 137.00000703334808, 1);
+	width:10px;
+	height:10px;
+	margin-right: 15px;
+}
+
